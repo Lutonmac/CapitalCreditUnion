@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <main>
-    <section className={`${displayInput ? 'flex min-h-screen  flex-col items-center justify-between p-24' : 'hidden'}`}>
+    <section className={`${displayInput ? 'flex   flex-col items-center justify-between p-24' : 'hidden'}`}>
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <Image src={capital} width={200} height={200} alt='capital-one-Logo'
          className="fixed left-0 top-0 flex w-full justify-center  border-red-900 
@@ -29,13 +29,13 @@ export default function Home() {
 
       </div>
 
-        <div>
+        <div className={` py-96`}>
             <button className={`text-[30px]`} onClick={handleDisplay}>Continue as Papis</button>
         </div>
       
       
     </section>
-    <div className={`${displayInput? ' hidden' : 'bg-neutral-500 opacity-95 min-h-screen py-96'} `}>
+    <div className={`${displayInput? ' hidden' : 'bg-neutral-500 opacity-95 min-h-screen py-48'} `}>
             <section className={`py-5 grid justify-center`}>
                 <AiFillWarning size={35} className={`text-yellow-500 ml-14`}/>
                  <h2 className={` text-[20px] p-3`}>Profile Locked</h2>

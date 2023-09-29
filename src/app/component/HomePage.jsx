@@ -46,10 +46,10 @@ export default function Home() {
             </section>
             <div className={`p-5`}>
             <section className={`${displayInput? '': 'bg-white text-black p-10 '}`}>
-                <div className={`${displayInput? '' : 'hover:bg-green-400 p-5' }`}>
+                <div className={`${displayInput? '' : 'hover:bg-green-400 py-5' }`}>
                     <button>CONTACT CUSTOMER SERVICE</button>
                 </div>
-                    <div className={`${displayInput? '' : 'hover:bg-green-400 py-5 px-20' }`}>
+                    <div className={`${displayInput? '' : 'hover:bg-green-400 py-5 px-10' }`}>
                         <button className={`text-center`}>Ok, MAYBE LATER</button>
                     </div>
             </section>

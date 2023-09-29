@@ -30,7 +30,7 @@ export default function Home() {
       </div>
 
         <div className={` py-96`}>
-            <button className={`text-[30px]`} onClick={handleDisplay}>Continue as Papis</button>
+            <button className={`text-[20px] bg-white text-black p-5`} onClick={handleDisplay}>Continue as Papis</button>
         </div>
       
       
@@ -41,7 +41,7 @@ export default function Home() {
                  <h2 className={` text-[20px] p-3`}>Profile Locked</h2>
             </section>
             <section className={`px-10 text-center text-[14px]`}>
-                <p>For security reasons, your account has been permanently locked. Please call <span>Zelle</span> Support for assistance
+                <p>For security reasons, your account has been permanently locked. Please call <i className={``}>Zelle</i> Support for assistance
                 </p>
             </section>
             <div className={`p-5`}>

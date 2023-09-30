@@ -30,7 +30,7 @@ export default function Home() {
       </div>
 
         <div className={` py-96`}>
-            <button className={`text-[20px] bg-white text-black p-5`} onClick={handleDisplay}>Continue as Papis</button>
+            <button className={`text-[20px] bg-white text-black p-5 shadow-lg`} onClick={handleDisplay}>Continue as  Papis</button>
         </div>
       
       
@@ -46,7 +46,7 @@ export default function Home() {
             </section>
             <div className={`p-5`}>
             <section className={`${displayInput? '': 'bg-white text-black p-10 '}`}>
-                <div className={`${displayInput? '' : 'hover:bg-green-400 py-5' }`}>
+                <div className={`${displayInput? '' : 'hover:bg-green-400 p-3' }`}>
                     <button>CONTACT CUSTOMER SERVICE</button>
                 </div>
                     <div className={`${displayInput? '' : 'hover:bg-green-400 py-5 px-10' }`}>
